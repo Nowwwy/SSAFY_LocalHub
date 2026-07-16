@@ -1,5 +1,7 @@
 # LocalHub — 구미/경북 지역 정보 공유 커뮤니티
 
+페이지 https://startcamp-pjt-lsm.netlify.app/
+
 공공데이터(한국관광공사 TourAPI 4.0) 기반 지역 정보 공유 커뮤니티 프론트엔드입니다.
 별도 백엔드 서버 없이 **Vue.js 3(Vite) 정적 SPA**로 동작하며, 게시판은 브라우저
 `localStorage`에, 챗봇은 프론트엔드에서 OpenAI API를 직접 호출하는 구조입니다.
@@ -18,6 +20,7 @@
 - OpenAI Chat Completions API (프론트엔드 직접 호출)
 - Open-Meteo API (선택기능: 날씨 정보, 무료/키 불필요)
 - 배포: Netlify
+
 
 ## 폴더 구조
 
